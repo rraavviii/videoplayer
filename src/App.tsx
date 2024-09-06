@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./App.css";
-import Footer from "./components/ControlButtons/Footer";
 import MediaInput from "./components/MediaInput/MediaInput";
 import DragAndDrop from "./components/DragAndDrop/DragAndDrop";
 import MediaPlayer from "./components/MediaPlayer/MediaPlayer";
@@ -47,7 +46,6 @@ const App: React.FC = () => {
                 setCurrentMediaIndex={setCurrentMediaIndex}
               />
             </div>
-            <Footer />
           </>
         )}
         {playlist.length > 0 && (
